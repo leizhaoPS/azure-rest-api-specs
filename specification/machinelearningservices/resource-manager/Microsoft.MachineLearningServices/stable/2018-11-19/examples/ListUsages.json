@@ -9,8 +9,8 @@
       "body": {
         "value": [
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/Clusters/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages",
+            "type": "Microsoft.MachineLearningServices/totalCores/usages",
             "currentValue": 5,
             "limit": 20,
             "name": {
@@ -20,8 +20,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages",
+            "type": "Microsoft.MachineLearningServices/dedicatedCores/usages",
             "currentValue": 49,
             "limit": 600,
             "name": {
@@ -31,8 +31,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_D_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 1,
             "limit": 600,
             "name": {
@@ -42,8 +42,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_Dv2_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 600,
             "name": {
@@ -53,8 +53,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NC_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 48,
             "limit": 600,
             "name": {
@@ -64,30 +64,30 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/MachineLearningServices/workspaces/w1/usages/Standard_NC_Family_Cluster_Dedicated_ vCPUs",
-            "type": "MachineLearningServices/workspace/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/demo_workspace1/usages/Standard_NC_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/workspace/usages",
             "currentValue": 48,
             "limit": 600,
             "name": {
-              "localizedValue": "kalwsnb1",
-              "value": "kalwsnb1"
+              "localizedValue": "demo_workspace1",
+              "value": "demo_workspace1"
             },
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/MachineLearningServices/workspaces/w1/computes/c1/usages/Standard_NC_Family_Cluster_Dedicated_vCPUs",
-            "type": "MachineLearningServices/compute/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/demo_workspace1/computes/c1/usages/Standard_NC_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/compute/usages",
             "currentValue": 48,
             "limit": 0,
             "name": {
-              "localizedValue": "kalwsnb1_c1",
-              "value": "kalwsnb1_c1"
+              "localizedValue": "demo_workspace1_c1",
+              "value": "demo_workspace1_c1"
             },
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NCv2_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -97,8 +97,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NCv3_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -108,8 +108,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_ND_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -119,8 +119,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NV_Family_Cluster_Dedicated_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 600,
             "name": {
@@ -130,8 +130,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages",
+            "type": "Microsoft.MachineLearningServices/lowPriorityCores/usages",
             "currentValue": 0,
             "limit": 150,
             "name": {
@@ -141,8 +141,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_D_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 150,
             "name": {
@@ -152,8 +152,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_Dv2_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 150,
             "name": {
@@ -163,8 +163,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NC_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 150,
             "name": {
@@ -174,30 +174,30 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/MachineLearningServices/workspaces/w1/usages/Standard_NC_Family_Cluster_Low_Priority_ vCPUs",
-            "type": "MachineLearningServices/workspace/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/demo_workspace1/usages/Standard_NC_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/workspace/usages",
             "currentValue": 0,
             "limit": -1,
             "name": {
-              "localizedValue": "kalwsnb1",
-              "value": "kalwsnb1"
+              "localizedValue": "demo_workspace1",
+              "value": "demo_workspace1"
             },
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/MachineLearningServices/workspaces/w1/computes/c1/usages/Standard_NC_Family_Cluster_Low_Priority_vCPUs",
-            "type": "MachineLearningServices/compute/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/w1/computes/c1/usages/Standard_NC_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/compute/usages",
             "currentValue": 0,
             "limit": -1,
             "name": {
-              "localizedValue": "kalwsnb1_c1_lp",
-              "value": "kalwsnb1_c1_lp"
+              "localizedValue": "demo_workspace1_c1_lp",
+              "value": "demo_workspace1_c1_lp"
             },
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NCv2_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -207,8 +207,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NCv3_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -218,8 +218,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_ND_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 0,
             "name": {
@@ -229,8 +229,8 @@
             "unit": "Count"
           },
           {
-            "id": "subscriptions/{subscriptionId}",
-            "type": "MachineLearningServices/vmFamily/usages",
+            "id": "subscriptions/00000000-0000-0000-0000-000000000000/usages/Standard_NV_Family_Cluster_Low_Priority_vCPUs",
+            "type": "Microsoft.MachineLearningServices/vmFamily/usages",
             "currentValue": 0,
             "limit": 150,
             "name": {
